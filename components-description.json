@@ -1,0 +1,109 @@
+{
+  "data": [
+    {
+      "name": "industrial_bridge",
+      "url": "",
+      "description": "Program to periodically fetch data from multiple devices (Modbus/S7) and convert and send it to multiple remotes (Prometheus/InfluxDB)"
+    },
+    {
+      "name": "H2F_control_deploy",
+      "url": "",
+      "description": "Ansible playbook to deploy a ready to use data collection/interface to a server"
+    },
+    {
+      "name": "grafana_dashboard_convert",
+      "url": "",
+      "description": "Grafana dashboards repository and associated script for downloading/converting"
+    },
+    {
+      "name": "bridge_config",
+      "url": "",
+      "description": "Configuration used for the bridge, and registers definition"
+    },
+    {
+      "name": "H2F_control",
+      "url": "",
+      "description": "Web User Interface (WebUI) to display and control the system (electrolyser/compressor)"
+    },
+    {
+      "name": "compressor_HMI_regs_extract",
+      "url": "",
+      "description": "Utilities to extract registers definition from the HyET Electrochemical-Compressor (EHC) PLC"
+    },
+    {
+      "name": "H2F_test_devices",
+      "url": "",
+      "description": "Utility to emulate devices (Modbus/S7/Logo!) packaged as a docker compose"
+    },
+    {
+      "name": "modbus_test_server",
+      "url": "",
+      "description": "Simple script to emulate multiple ModBus devices, via TCP or RTU (serial-tty)"
+    },
+    {
+      "name": "snap7_test_server",
+      "url": "",
+      "description": "Simple script to emulate one S7 device (PLC or Logo) via TCP"
+    },
+    {
+      "name": "industrial_device",
+      "url": "",
+      "description": "Rust Interface providing unified access to devices using a typical industrial protocol (access to registers, ex. ModBus/S7)"
+    },
+    {
+      "name": "modbus_device",
+      "url": "",
+      "description": "Implementation of the industrial_device interface for communication with ModBus devices over TCP or RTU"
+    },
+    {
+      "name": "S7_devices",
+      "url": "",
+      "description": "Implementation of the industrial_device interface for communication with S7 devices over TCP (ex. S7-1200, Logo!7, Logo!8)"
+    },
+    {
+      "name": "Grafana",
+      "url": " www.grafana.com",
+      "description": "Open source analytics & monitoring solution"
+    },
+    {
+      "name": "InfluxDB",
+      "url": " www.influxdata.com",
+      "description": "Open source time-serie database"
+    },
+    {
+      "name": "DHBW_electrolyzer_rs",
+      "url": "",
+      "description": "[Deprecated] Program to fetch data from modbus and send it to a remote. Deprecated in favor of industrial_bridge"
+    },
+    {
+      "name": "modbus_server",
+      "url": "",
+      "description": "[Deprecated] Script to emulate a ModBus device over TCP. Deprecated in favor of modbus_test_server"
+    },
+    {
+      "name": "DHBW_electrolyzer",
+      "url": " github.com/YoriyoiAlpha/DHBW_electrolyzer",
+      "description": "[Deprecated] Script to fetch data from the electrolyzer and send it to a remote. Deprecated in favor of it's Rust equivalent DHBW_electrolyzer_rs"
+    },
+    {
+      "name": "DHBW_compressor",
+      "url": "",
+      "description": "[Deprecated] Script to fetch data from the compressor and send it to a remote. Deprecated in favor of industrial_bridge"
+    },
+    {
+      "name": "electrolyzer_eta",
+      "url": " github.com/YoriyoiAlpha/electrolyzer_eta",
+      "description": "Simple program to sweep the production rate of the electrolyzer"
+    },
+    {
+      "name": "DHBW_electrolyzer_dynamics",
+      "url": " github.com/YoriyoiAlpha/DHBW_electrolyzer_dynamics",
+      "description": "Simple program to sweep the electrolyzer production rate and record it's status to InfluxDB"
+    },
+    {
+      "name": "DHBW_electrolyzer_writer",
+      "url": "",
+      "description": "Example program to write to a register using the modbus_device library"
+    }
+  ]
+}
