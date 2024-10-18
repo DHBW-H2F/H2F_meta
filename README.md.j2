@@ -7,5 +7,5 @@ The aim of this repository is to aggregate all the component parts of the H2F sy
 
 ## Components description
 {% for c in data -%}
-- ![{{ c.name }}](https://{{ c.url.strip() or ("github.com/lkzjdnb/"+c.name) }}) : {{ c.description }}
+- [{{ c.name }}](https://{{ c.url.strip() or ("github.com/lkzjdnb/"+c.name) }}) : {{ c.description }}
 {% endfor -%}
