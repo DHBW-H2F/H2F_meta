@@ -71,7 +71,7 @@ ssh username@COMPUTER_B_IP
 ```
 You should now be connected without having to enter a password.
 
-## 6. (Optional) Additional security
+## 6. Additional security
 
 On the **Server**, you can harden the SSH configuration:
 ```bash
