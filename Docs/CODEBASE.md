@@ -1,6 +1,7 @@
 # Codebase
 
 # Summary
+- [List of Technololy](#list-of-technology) : All the technology of the project
 - [Detailled architecture](#detailled-architecture) : The detail scheme of the whole infrastructure
 - [Git Repositories](#git-repositories) : The simple relationship scheme between the repositories
 - [Code architecture of the WebUI](#code-architecture-of-the-webui) : Represention of the organization of the code of the webUI
@@ -11,6 +12,33 @@
 - [Ansible Command](#ansible-command) : description of the step to deploy the project
 - [Integrating new devices](#integrating-new-devices) : description of the step to deploy the project
 - [Tips to apply modification](#tips-to-apply-modification) : description of the step to deploy the project
+
+## List of technology
+### Physical Device
+- [Electrolyser](https://handbook.enapter.com/electrolyser/el41)
+- [Logo](https://www.siemens.com/de/de/produkte/automatisierung/systeme/industrie/sps/logo/logo-basis-module.html)
+- [EHC](https://hyethydrogen.com/hcs100)
+### Virtualization
+- [VirtualBox](https://www.virtualbox.org)
+- [Docker](https://www.docker.com)
+### DataBase
+- [Grafana](https://grafana.com)
+- [InfluxDB](https://www.influxdata.com)
+- [Promettheus](https://prometheus.io)
+- [Pushgateway](https://prometheus.io/docs/practices/pushing)
+### Deployement Management
+- [Traefik](https://traefik.io)
+- [Ansible](https://docs.ansible.com)
+
+### Programming Language
+- [Rust](https://www.rust-lang.org)
+- [Javascript](https://developer.mozilla.org/en/docs/Web/JavaScript)
+- [HTML](https://developer.mozilla.org/en/docs/Web/HTML)
+- [CSS](https://developer.mozilla.org/en/docs/Web/CSS)
+- [Bootstrap](https://getbootstrap.com)
+### Other technology
+- [EnapterGateway](https://handbook.enapter.com/software/gateway_software)
+- [Kiosk Mod](https://www.docker.com)
 
 ## Detailled architecture
 ![Project architecture](ressources/project_architecture.png)
