@@ -38,7 +38,7 @@
 - [Bootstrap](https://getbootstrap.com)
 ### Other technology
 - [EnapterGateway](https://handbook.enapter.com/software/gateway_software)
-- [Kiosk Mod](https://www.docker.com)
+- [Kiosk Mod](https://support.mozilla.org/en-US/kb/firefox-enterprise-kiosk-mode)
 
 ## Detailled architecture
 ![Project architecture](ressources/project_architecture.png)
