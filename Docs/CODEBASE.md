@@ -235,7 +235,7 @@ You can use the ansible command to easily maintain the service where is deploy t
 ```bash
 ansible-playbook -v -i inventory/hosts playbook.yaml --tags "<tag>"
 ```
-If you need to rebuild a service, you should do a clean and a install as the same time. You can combine tags when involve the command by separate the tags with a space. Ex : ```... --tags "clean-webui install-webui"```
+If you need to rebuild a service, you should do a clean and a install as the same time. You can combine tags when involve the command by separate the tags with a comma. Ex : ```... --tags "clean-webui,install-webui"```
 
 ### Main Component
 | Commande | Service   | Tag             |
